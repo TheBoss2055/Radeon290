@@ -1,2 +1,1 @@
-# Radeon290
-Radeon
+# EllichComp
