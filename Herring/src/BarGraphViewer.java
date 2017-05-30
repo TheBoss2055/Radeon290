@@ -1,19 +1,24 @@
 import javax.swing.*;
 
 /**
- * Created by TheBo on 5/12/2017.
+ * Project: EllichComp
+ *
+ * Created by Brady on 5/15/2017.
+ *
+ * Program which allows you to view the bar graph created in BarGraphComponent.
  */
-public class barGraphViewer{
+public class BarGraphViewer
+{
 
     public static void main(String[] args)
     {
         JFrame frame = new JFrame();
 
-        frame.setSize(1000,500);
+        frame.setSize(620,460);
         frame.setTitle("Bar Graph");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        barGraph component = new barGraph();
+        BarGraphComponent component = new BarGraphComponent();
         frame.add(component);
         frame.setVisible(true);
     }

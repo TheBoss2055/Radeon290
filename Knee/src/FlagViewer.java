@@ -1,19 +1,17 @@
-import javax.swing.*;
+import javax.swing.JFrame;
 
-/**
- * Created by TheBo on 5/12/2017.
- */
-public class barGraphViewer{
+
+public class FlagViewer {
 
     public static void main(String[] args)
     {
         JFrame frame = new JFrame();
 
-        frame.setSize(1000,500);
-        frame.setTitle("Bar Graph");
+        frame.setSize(300,400);
+        frame.setTitle("Two rectangles");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        barGraph component = new barGraph();
+        Flag component = new Flag();
         frame.add(component);
         frame.setVisible(true);
     }

@@ -1,19 +1,17 @@
-import javax.swing.*;
+import javax.swing.JFrame;
 
-/**
- * Created by TheBo on 5/12/2017.
- */
-public class barGraphViewer{
+
+public class CheckerboardViewer {
 
     public static void main(String[] args)
     {
         JFrame frame = new JFrame();
 
-        frame.setSize(1000,500);
-        frame.setTitle("Bar Graph");
+        frame.setSize(415,439);
+        frame.setTitle("Checkerboard");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        barGraph component = new barGraph();
+        Checkerboard component = new Checkerboard();
         frame.add(component);
         frame.setVisible(true);
     }
